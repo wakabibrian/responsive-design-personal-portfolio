@@ -1,0 +1,147 @@
+/* rem and em do NOT depend on html font-size in media queries!
+Instead, 1rem = 1em = 16px
+rem - root font size
+em - current font size - use this because rem has bugs in some browsers
+*/
+
+/*******************************/
+/* Below 1344px */
+/*******************************/
+@media (max-width: 84em) {
+  .container,
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 5.8rem;
+  }
+
+  .heading-primary-description {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .hero-text-box {
+    padding-top: 2.4rem;
+  }
+
+  .hero-description {
+    margin-bottom: 4.8rem;
+  }
+
+  .approach-title {
+    font-size: 1.8rem;
+  }
+}
+
+/*******************************/
+/* Below 1200px - Landscape Tablets*/
+/*******************************/
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+
+  .grid,
+  .grid-approach-section {
+    gap: 4.8rem;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .about-details-2 h3 {
+    font-size: 3.6rem;
+  }
+
+  .grid-projects {
+    gap: 2.4rem;
+  }
+
+  .grid-blog {
+    gap: 2rem;
+  }
+
+  .section-top-header {
+    padding: 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+}
+
+/*******************************/
+/* Below 944px - Tablets*/
+/*******************************/
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px */
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-description {
+    margin-bottom: 3.2rem;
+  }
+
+  .experience-details--text {
+    font-size: 1.6rem;
+  }
+
+  .sub-heading h2 {
+    font-size: 2.4rem;
+  }
+
+  .approach-title {
+    font-size: 1.6rem;
+  }
+
+  .about-details-2 h3 {
+    font-size: 3rem;
+  }
+
+  .icon-wrap svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .icon-wrap {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+
+  .project-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .grid-approach-section {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .grid--contact {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .contact-form--grid {
+    row-gap: 1.2rem;
+    column-gap: 1rem;
+  }
+}
