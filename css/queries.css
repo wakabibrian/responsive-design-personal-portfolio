@@ -4,9 +4,9 @@ rem - root font size
 em - current font size - use this because rem has bugs in some browsers
 */
 
-/***********************/
+/***********************************/
 /* Below 1344px (smaller desktops) */
-/***********************/
+/***********************************/
 @media (max-width: 84em) {
   .container {
     max-width: 120rem;
@@ -18,6 +18,33 @@ em - current font size - use this because rem has bugs in some browsers
 
   .heading-primary-description {
     font-size: 1.6rem;
+  }
+}
+
+/***********************************/
+/* Below 1200px (Landscape Tablets) */
+/***********************************/
+@media (max-width: 75em) {
+  /* 9px / 16px */
+  html {
+    font-size: 56.25%;
+  }
+
+  .about-details-2 h3 {
+    font-size: 3.6rem;
+  }
+
+  .skills {
+    font-size: 2rem;
+  }
+
+  .grid,
+  .grid-approach-section {
+    gap: 4.8rem;
+  }
+
+  .grid-col-sm {
+    column-gap: 3.2rem;
   }
 }
 
