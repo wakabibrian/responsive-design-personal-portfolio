@@ -257,10 +257,6 @@ body {
 }
 
 .hero {
-  max-width: 130rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-
   display: grid;
   grid-template-columns: 1fr 1.4fr;
   align-items: center;
