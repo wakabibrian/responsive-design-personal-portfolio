@@ -46,6 +46,28 @@ em - current font size - use this because rem has bugs in some browsers
   .grid-col-sm {
     column-gap: 3.2rem;
   }
+
+  .approach-title {
+    font-size: 1.8rem;
+  }
+
+  .icon-wrap {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .icon-wrap svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .section-top-header {
+    padding: 0 3.2rem;
+  }
+
+  .skills {
+    padding: 0 4.8rem;
+  }
 }
 
 /* Font Size */
